@@ -33,7 +33,7 @@
   margin-right: 10px;
 }
 
-.info-block__button {
+.info-block__button, .info-block__button-notification {
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -95,5 +95,12 @@
 
 .info__input {
   background-color: #1665D8;
+}
+
+.info-block__button-notification {
+  background-color: white;
+  color: #1665D8;
+  -webkit-box-shadow: #E4E7EB;
+          box-shadow: #E4E7EB;
 }
 /*# sourceMappingURL=infoblock.css.map */

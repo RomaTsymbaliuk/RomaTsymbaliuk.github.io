@@ -103,3 +103,10 @@ $info-button-color: #1665D8;
     background-color: $info-button-color;
     
 }
+
+.info-block__button-notification{
+    @extend .info-block__button;
+    background-color: white;
+    color: $info-button-color;
+    box-shadow: $info-line-color;
+}
