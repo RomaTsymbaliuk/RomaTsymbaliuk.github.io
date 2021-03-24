@@ -1,0 +1,105 @@
+$info-block-color : #425A70;
+$info-block-background-color: #F2F2F2;
+$info-line-color: #E4E7EB;
+$info-button-color: #1665D8;
+.info-block{
+    margin-top: 22px;
+    margin-left: 30px;
+    background-color: $info-block-background-color;
+    width: 150%;
+    height: 80%;
+    
+}
+
+.info-block-together{
+    margin-left: 10px;
+    display: flex;
+}
+
+.info-block__text{
+    
+    color: #66788A;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 15px;
+
+}
+
+.info-block__line{
+
+    color: $info-line-color;
+    
+}
+.info-form__input{
+    width: 40%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.info-block__button{
+
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: white;
+    background-color: $info-button-color;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.info-block-together-title{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 10px;
+   
+}
+.info-form__multiple-text{
+    margin-left: 20px;
+
+}
+
+.info-form__multiple{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.info-block__text{
+    @extend .info-block-together-title;
+    margin-right: 140px;
+    
+}
+
+.info-block__notifications{
+    @extend .info-block-together-title;
+    margin-right: 55px;
+    margin-top:20px;
+    
+}
+.info-block__textmessages{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 80px;
+    margin-top: 20px;
+    
+}
+
+.info-form__text{
+    font-size: 16px;
+    color: #000000;
+    
+}
+
+.info__input{
+    
+    background-color: $info-button-color;
+    
+}

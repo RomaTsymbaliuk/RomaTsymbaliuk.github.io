@@ -1,0 +1,45 @@
+$page-button-color: #1665D8;
+
+.page__input{
+    width: 60%;
+}
+
+.page__filter{
+    border: 0;
+    padding: 10px;
+    width: 10%;
+}
+
+.page__addbutton{
+
+    border: 0;
+    padding: 10px;
+    width: 12%;
+    background-color: $page-button-color;
+    color: white;
+    margin-left: 80px;
+
+}
+.page__username{
+    
+    
+    width: 100%;
+    color: #3A3B3F;
+    font-size: 14px;
+    
+}
+.page-block{
+
+    display: flex;
+    height: 3%;
+    margin-top: 30px;  
+}
+.page__field{
+    @extend .page__username;
+    color: #000;
+    font-size: 14px;
+}
+.page__line{
+    width: 100%;
+    color: #E4E7EB;
+}

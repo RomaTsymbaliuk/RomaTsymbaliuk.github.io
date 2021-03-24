@@ -1,0 +1,48 @@
+.header {
+  background-color: #3F51B5;
+  height: 64px;
+  width: 100%;
+}
+
+.header .header-mountains {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.header .header-text-dev {
+  position: relative;
+  text-align: center;
+  color: white;
+  size: 20px;
+  bottom: 10px;
+  left: 5px;
+}
+
+.header .header-free {
+  color: white;
+  background-color: #26A69A;
+  size: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 40px;
+  bottom: 10px;
+}
+
+.header .header-long-text {
+  color: white;
+  size: 14px;
+  position: relative;
+  left: 40px;
+  bottom: 10px;
+}
+
+.header .header-image {
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=header.css.map */

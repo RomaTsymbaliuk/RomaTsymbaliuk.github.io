@@ -1,0 +1,83 @@
+.profile-link {
+  display: inline-block;
+  margin-right: 20px;
+  color: #3A3B3F;
+  line-height: 3;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile-link:after {
+  background-color: #1665D8;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+.profile-link:hover:after,
+.profile-link:focus:after {
+  width: 100%;
+}
+
+.profile-nav-line {
+  margin-top: 0px;
+  color: #E4E7EB;
+  width: 106%;
+}
+
+.profile-block {
+  height: 60%;
+  width: 110%;
+  background-color: #F2F2F2;
+}
+
+.profile-header {
+  font-size: 24px;
+  margin-left: 20px;
+  padding-top: 17px;
+}
+
+.profile-photo {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+
+.profile-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-block-text {
+  display: block;
+  color: #3A3B3F;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.profile-button {
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #425A70;
+  padding: 15px;
+}
+
+.profile-button:hover {
+  color: #1665D8;
+}
+
+.profile-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=profile.css.map */
