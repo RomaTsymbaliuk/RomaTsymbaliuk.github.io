@@ -1,3 +1,7 @@
+.column-9 {
+  background-color: #F2F2F2;
+}
+
 .profile-link {
   display: inline-block;
   margin-right: 20px;
@@ -33,7 +37,8 @@
 .profile-block {
   height: 60%;
   width: 110%;
-  background-color: #F2F2F2;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .profile-header {
@@ -67,6 +72,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  background-color: white;
   color: #425A70;
   padding: 15px;
 }

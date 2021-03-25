@@ -5,6 +5,12 @@ $profile-block-color: #F2F2F2;
 $profile-background-color: #9EA0A5;
 $profile-button-color : #1665D8;
 $profile-button-text-color : #425A70;
+.column-9{
+
+    background-color: $profile-block-color;
+    
+
+}
 .profile-link {
     display: inline-block;
     margin-right: 20px;
@@ -38,7 +44,8 @@ $profile-button-text-color : #425A70;
 .profile-block{
     height : 60%;
     width : 110%;
-    background-color: $profile-block-color;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .profile-header{
@@ -72,6 +79,7 @@ $profile-button-text-color : #425A70;
 .profile-button{
     border: 0;
     appearance: none;
+    background-color: white;
     color: $profile-button-text-color;
     padding: 15px;
 }
