@@ -4,12 +4,12 @@
   width: 100%;
 }
 
-.header .header-mountains {
+.header-mountains {
   margin-top: 15px;
   margin-left: 30px;
 }
 
-.header .header-text-dev {
+.header-text-dev {
   position: relative;
   text-align: center;
   color: white;
@@ -18,7 +18,7 @@
   left: 5px;
 }
 
-.header .header-free {
+.header-free {
   color: white;
   background-color: #26A69A;
   size: 10px;
@@ -32,7 +32,7 @@
   bottom: 10px;
 }
 
-.header .header-long-text {
+.header-long-text {
   color: white;
   size: 14px;
   position: relative;
@@ -40,7 +40,7 @@
   bottom: 10px;
 }
 
-.header .header-image {
+.header-image {
   float: right;
   margin-top: 25px;
   margin-right: 10px;

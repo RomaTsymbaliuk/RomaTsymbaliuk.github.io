@@ -11,15 +11,21 @@ $profile-button-text-color : #425A70;
     
 
 }
+
+$profile-link-m-right: 20px;
+$profile-ling-height: 3;
+$profile-text-size: 16px;
+
 .profile-link {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: $profile-link-m-right;
     color: $profile-text-color;
-    line-height: 3;
-    font-size: 16px;
+    line-height: $profile-ling-height;
+    font-size: $profile-text-size;
     text-decoration: none;
     cursor: pointer;
 }
+
 .profile-link:after {
     background-color: $profile-link-hover;
     display: block;
@@ -41,6 +47,7 @@ $profile-button-text-color : #425A70;
     color: $profile-line-color;
     width: 106%;
 }
+
 .profile-block{
     height : 60%;
     width : 110%;
