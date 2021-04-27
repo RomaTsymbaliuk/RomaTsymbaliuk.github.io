@@ -1,19 +1,14 @@
 .DS_Store
 node_modules
-assets
 public
 /dist
+
 
 
 # local env files
 .env.local
 .env.*.local
-.browserslistrc
-.eslintrc.js
-README.md 
-babel.config.js
-package-lock.json
-package.json
+
 # Log files
 npm-debug.log*
 yarn-debug.log*
